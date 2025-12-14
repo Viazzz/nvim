@@ -8,6 +8,7 @@ return {
             typescript = { "prettier" },
             markdown = { "prettier" },
             sql = { "sqlfmt" },
+            json = { "black" },
         },
     },
 }

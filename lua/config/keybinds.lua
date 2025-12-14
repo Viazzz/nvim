@@ -69,3 +69,5 @@ vim.keymap.set("n", "<leader>cf", function()
     require("conform").format()
 end, { desc = "Current file was formated" })
 
+-- nvim-tree
+vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
